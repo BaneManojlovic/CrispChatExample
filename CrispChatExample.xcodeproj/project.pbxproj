@@ -56,6 +56,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A08B74522AD0D0D00241D31 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D78CF22ACF47D00D9E034 /* LaunchScreen.storyboard */,
+				9A9D78CA22ACF47C00D9E034 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9A08B74622AD0D1200241D31 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D78C622ACF47C00D9E034 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9A08B74722AD0D2B00241D31 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D78C822ACF47C00D9E034 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9A08B74822AD0D3800241D31 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D78CD22ACF47D00D9E034 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		9A9D78BA22ACF47C00D9E034 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +110,10 @@
 		9A9D78C522ACF47C00D9E034 /* CrispChatExample */ = {
 			isa = PBXGroup;
 			children = (
-				9A9D78C622ACF47C00D9E034 /* AppDelegate.swift */,
-				9A9D78C822ACF47C00D9E034 /* ViewController.swift */,
-				9A9D78CA22ACF47C00D9E034 /* Main.storyboard */,
-				9A9D78CD22ACF47D00D9E034 /* Assets.xcassets */,
-				9A9D78CF22ACF47D00D9E034 /* LaunchScreen.storyboard */,
+				9A08B74622AD0D1200241D31 /* AppDelegate */,
+				9A08B74822AD0D3800241D31 /* Assets */,
+				9A08B74522AD0D0D00241D31 /* Storyboards */,
+				9A08B74722AD0D2B00241D31 /* ViewControllers */,
 				9A9D78D222ACF47D00D9E034 /* Info.plist */,
 			);
 			path = CrispChatExample;
