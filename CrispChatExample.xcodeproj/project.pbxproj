@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10C8DEE41EA0FF8F2E447BD0 /* Pods_CrispChatExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26B09C6E3227EBF2B94B0A8 /* Pods_CrispChatExampleTests.framework */; };
+		4B79D3D896CA210AACEE6A07 /* Pods_CrispChatExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BAD71BFD2326B8F2DC98E0 /* Pods_CrispChatExample.framework */; };
+		9A08B74C22AD1C1300241D31 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A08B74B22AD1C1300241D31 /* ChatViewController.swift */; };
+		9A08B74E22AD1C3A00241D31 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A08B74D22AD1C3A00241D31 /* ChatView.swift */; };
 		9A9D78C722ACF47C00D9E034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D78C622ACF47C00D9E034 /* AppDelegate.swift */; };
 		9A9D78C922ACF47C00D9E034 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D78C822ACF47C00D9E034 /* HomeViewController.swift */; };
 		9A9D78CC22ACF47C00D9E034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D78CA22ACF47C00D9E034 /* Main.storyboard */; };
 		9A9D78CE22ACF47D00D9E034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D78CD22ACF47D00D9E034 /* Assets.xcassets */; };
 		9A9D78D122ACF47D00D9E034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D78CF22ACF47D00D9E034 /* LaunchScreen.storyboard */; };
 		9A9D78DC22ACF47D00D9E034 /* CrispChatExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D78DB22ACF47D00D9E034 /* CrispChatExampleTests.swift */; };
+		9AB118D622AD267A00627CBE /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB118D522AD267A00627CBE /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65BAD71BFD2326B8F2DC98E0 /* Pods_CrispChatExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrispChatExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747AC64D88704AD75C732661 /* Pods-CrispChatExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrispChatExampleTests.release.xcconfig"; path = "Target Support Files/Pods-CrispChatExampleTests/Pods-CrispChatExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9A08B74B22AD1C1300241D31 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		9A08B74D22AD1C3A00241D31 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		9A9D78C322ACF47C00D9E034 /* CrispChatExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrispChatExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9D78C622ACF47C00D9E034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A9D78C822ACF47C00D9E034 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,11 @@
 		9A9D78D722ACF47D00D9E034 /* CrispChatExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrispChatExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9D78DB22ACF47D00D9E034 /* CrispChatExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrispChatExampleTests.swift; sourceTree = "<group>"; };
 		9A9D78DD22ACF47D00D9E034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB118D522AD267A00627CBE /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		ADE71271DEC82EC63D823CEE /* Pods-CrispChatExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrispChatExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-CrispChatExampleTests/Pods-CrispChatExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B26B09C6E3227EBF2B94B0A8 /* Pods_CrispChatExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrispChatExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B1290D0919BF19CDB60D1E /* Pods-CrispChatExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrispChatExample.debug.xcconfig"; path = "Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample.debug.xcconfig"; sourceTree = "<group>"; };
+		EB12EA93664AD4565368AF66 /* Pods-CrispChatExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrispChatExample.release.xcconfig"; path = "Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B79D3D896CA210AACEE6A07 /* Pods_CrispChatExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +65,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C8DEE41EA0FF8F2E447BD0 /* Pods_CrispChatExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05EF0AFFD3B127B358862F8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65BAD71BFD2326B8F2DC98E0 /* Pods_CrispChatExample.framework */,
+				B26B09C6E3227EBF2B94B0A8 /* Pods_CrispChatExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A08B74522AD0D0D00241D31 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +101,8 @@
 		9A08B74722AD0D2B00241D31 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9A9D78C822ACF47C00D9E034 /* HomeViewController.swift */,
+				9A08B74922AD1BE400241D31 /* HomeVC */,
+				9A08B74A22AD1BEE00241D31 /* ChatVC */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -89,12 +115,31 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		9A08B74922AD1BE400241D31 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A9D78C822ACF47C00D9E034 /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		9A08B74A22AD1BEE00241D31 /* ChatVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A08B74B22AD1C1300241D31 /* ChatViewController.swift */,
+				9A08B74D22AD1C3A00241D31 /* ChatView.swift */,
+			);
+			path = ChatVC;
+			sourceTree = "<group>";
+		};
 		9A9D78BA22ACF47C00D9E034 = {
 			isa = PBXGroup;
 			children = (
 				9A9D78C522ACF47C00D9E034 /* CrispChatExample */,
 				9A9D78DA22ACF47D00D9E034 /* CrispChatExampleTests */,
 				9A9D78C422ACF47C00D9E034 /* Products */,
+				FB140077DC801A4415853C00 /* Pods */,
+				05EF0AFFD3B127B358862F8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +157,7 @@
 			children = (
 				9A08B74622AD0D1200241D31 /* AppDelegate */,
 				9A08B74822AD0D3800241D31 /* Assets */,
+				9AB118D422AD265B00627CBE /* Models */,
 				9A08B74522AD0D0D00241D31 /* Storyboards */,
 				9A08B74722AD0D2B00241D31 /* ViewControllers */,
 				9A9D78D222ACF47D00D9E034 /* Info.plist */,
@@ -128,6 +174,25 @@
 			path = CrispChatExampleTests;
 			sourceTree = "<group>";
 		};
+		9AB118D422AD265B00627CBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9AB118D522AD267A00627CBE /* ChatViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB140077DC801A4415853C00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0B1290D0919BF19CDB60D1E /* Pods-CrispChatExample.debug.xcconfig */,
+				EB12EA93664AD4565368AF66 /* Pods-CrispChatExample.release.xcconfig */,
+				ADE71271DEC82EC63D823CEE /* Pods-CrispChatExampleTests.debug.xcconfig */,
+				747AC64D88704AD75C732661 /* Pods-CrispChatExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A9D78E022ACF47D00D9E034 /* Build configuration list for PBXNativeTarget "CrispChatExample" */;
 			buildPhases = (
+				2ACA129C56C4817AE3340848 /* [CP] Check Pods Manifest.lock */,
 				9A9D78BF22ACF47C00D9E034 /* Sources */,
 				9A9D78C022ACF47C00D9E034 /* Frameworks */,
 				9A9D78C122ACF47C00D9E034 /* Resources */,
+				77BF29E813DDE56F181598C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A9D78E322ACF47D00D9E034 /* Build configuration list for PBXNativeTarget "CrispChatExampleTests" */;
 			buildPhases = (
+				3149ACC5958A309F067878CD /* [CP] Check Pods Manifest.lock */,
 				9A9D78D322ACF47D00D9E034 /* Sources */,
 				9A9D78D422ACF47D00D9E034 /* Frameworks */,
 				9A9D78D522ACF47D00D9E034 /* Resources */,
@@ -224,12 +292,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ACA129C56C4817AE3340848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrispChatExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3149ACC5958A309F067878CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrispChatExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BF29E813DDE56F181598C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A9D78BF22ACF47C00D9E034 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A08B74E22AD1C3A00241D31 /* ChatView.swift in Sources */,
 				9A9D78C922ACF47C00D9E034 /* HomeViewController.swift in Sources */,
+				9A08B74C22AD1C1300241D31 /* ChatViewController.swift in Sources */,
+				9AB118D622AD267A00627CBE /* ChatViewModel.swift in Sources */,
 				9A9D78C722ACF47C00D9E034 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +525,7 @@
 		};
 		9A9D78E122ACF47D00D9E034 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B1290D0919BF19CDB60D1E /* Pods-CrispChatExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -407,6 +543,7 @@
 		};
 		9A9D78E222ACF47D00D9E034 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB12EA93664AD4565368AF66 /* Pods-CrispChatExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -424,6 +561,7 @@
 		};
 		9A9D78E422ACF47D00D9E034 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE71271DEC82EC63D823CEE /* Pods-CrispChatExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -444,6 +582,7 @@
 		};
 		9A9D78E522ACF47D00D9E034 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747AC64D88704AD75C732661 /* Pods-CrispChatExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

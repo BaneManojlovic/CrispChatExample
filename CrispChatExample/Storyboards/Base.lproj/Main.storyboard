@@ -36,6 +36,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" image="chat_icon" id="a1r-v7-7Ua">
                             <connections>
                                 <action selector="openChat:" destination="BYZ-38-t0r" id="gcp-6w-7kb"/>
+                                <segue destination="HSw-RS-kUI" kind="show" id="rf0-2S-9Pa"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -46,6 +47,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="138.61607142857142"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="F7T-7e-gMU">
+            <objects>
+                <viewController storyboardIdentifier="ChatViewController" id="HSw-RS-kUI" customClass="ChatViewController" customModule="CrispChatExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LaU-k4-p3n" customClass="ChatView" customModule="CrispChatExample" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.96352338179999997" blue="0.2327070591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="aeJ-RJ-bYR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yg0-UE-Mrd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1846" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vRW-wr-PHl">

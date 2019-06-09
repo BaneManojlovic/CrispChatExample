@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49228DA56C2D9AF5421AA17F14737DB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		532F72072BABFF013597C052B3FB85D2 /* CrispView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3A00FBB05D2938A09890B73E01AD4B /* CrispView.swift */; };
+		82C34C9EEE68250C5CDFC37E19180206 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0F7BC56DF72C8B3A17329886BF8E1 /* Main.swift */; };
+		90C93BA85370258356492DE085CEE823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9222576B8E245B2522EEC193BCB310DB /* Pods-CrispChatExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F746E329EE83312AF468E534BC4319C /* Pods-CrispChatExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		934E5050C9D781513166497F2BB22E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9F825021619F863FD0171F2365EB4DE2 /* Pods-CrispChatExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2CA452C71B508398F80FA899AE90F /* Pods-CrispChatExampleTests-dummy.m */; };
+		A2DE98916CAB9A370339D4E8CF2B36DF /* Pods-CrispChatExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD17083CE17438335769E2C6EE5EA69 /* Pods-CrispChatExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD19CE267C162B1273858DED8E37365B /* Crisp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCFD59354F1C977A025FBDD84DB01D9 /* Crisp-dummy.m */; };
+		C070AD9FD2E01A86E8FE0BF53FCEAE0A /* Crisp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E40D5BE7D4FB7061A4E9FE390F12CD /* Crisp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95929F58787310DF02E55E25FA2DFBE /* Pods-CrispChatExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70D42F6CA26E2B773FB85C80F11237F /* Pods-CrispChatExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		345E45A8201B781B002D9AD885583E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C1701C69C43BF0BB4184B3A448C87EF;
+			remoteInfo = "Pods-CrispChatExample";
+		};
+		505C4F793132B805DC15E948A70D45DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755731B16606591E3420CBE727BD36C2;
+			remoteInfo = Crisp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E2E060803B9EE463399CB5B128E990 /* Crisp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Crisp.modulemap; sourceTree = "<group>"; };
+		10D7A4200BF6DFF285C43F49187F6C56 /* Pods-CrispChatExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrispChatExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15825784FBEE6FB82B682977C2E302D4 /* Pods-CrispChatExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrispChatExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F746E329EE83312AF468E534BC4319C /* Pods-CrispChatExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrispChatExampleTests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		393201459A7EBB29EE96892F4D74941A /* Pods-CrispChatExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrispChatExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CF28666BDF404093A24596D5B028B95 /* Pods-CrispChatExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrispChatExampleTests-Info.plist"; sourceTree = "<group>"; };
+		6C3A00FBB05D2938A09890B73E01AD4B /* CrispView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrispView.swift; path = Sources/CrispView.swift; sourceTree = "<group>"; };
+		70125874A6D2B136EE7379A00E7F48E3 /* Crisp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crisp-prefix.pch"; sourceTree = "<group>"; };
+		74093B9AC7450056963D50C7872CD329 /* Pods-CrispChatExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrispChatExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7656A8373585CD87400A2F47429E25D4 /* Pods-CrispChatExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrispChatExampleTests.modulemap"; sourceTree = "<group>"; };
+		793B95F87F98A7AB638F410C43DA0630 /* Pods-CrispChatExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrispChatExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CEA17836420F249587C157ACFA89053 /* Pods-CrispChatExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrispChatExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8178D79D2AB6A65144DDA6EAAEEA7F79 /* Pods-CrispChatExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrispChatExample.release.xcconfig"; sourceTree = "<group>"; };
+		81F3AAD6BA8227F8181E34129AA3C843 /* Pods-CrispChatExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrispChatExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A429A0786214DD43AF97A7C6BC47B91 /* Crisp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Crisp.framework; path = Crisp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD17083CE17438335769E2C6EE5EA69 /* Pods-CrispChatExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrispChatExample-umbrella.h"; sourceTree = "<group>"; };
+		930D6CB5BCCCFCE9B66C28F4EF9F7547 /* Pods-CrispChatExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrispChatExample.modulemap"; sourceTree = "<group>"; };
+		97A0F7BC56DF72C8B3A17329886BF8E1 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Sources/Main.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F509ADFCF6E0C898F39C6D8FCABD401 /* Pods-CrispChatExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrispChatExample-Info.plist"; sourceTree = "<group>"; };
+		B2E40D5BE7D4FB7061A4E9FE390F12CD /* Crisp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crisp-umbrella.h"; sourceTree = "<group>"; };
+		B786F46F65084B8FD5BC5DD8F258234E /* Pods-CrispChatExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrispChatExample-frameworks.sh"; sourceTree = "<group>"; };
+		BB4FF441C3D3A9F6766E10A37FEC71D5 /* Pods_CrispChatExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrispChatExampleTests.framework; path = "Pods-CrispChatExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFBDA781A3C27A77D390824A9018A115 /* Crisp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Crisp-Info.plist"; sourceTree = "<group>"; };
+		C4D525671130DF7E611870E6198C3538 /* Crisp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crisp.xcconfig; sourceTree = "<group>"; };
+		CED2CA452C71B508398F80FA899AE90F /* Pods-CrispChatExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrispChatExampleTests-dummy.m"; sourceTree = "<group>"; };
+		D70D42F6CA26E2B773FB85C80F11237F /* Pods-CrispChatExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrispChatExample-dummy.m"; sourceTree = "<group>"; };
+		EAB7E9F726F6B23BBE4C3CDB0418B275 /* Pods_CrispChatExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrispChatExample.framework; path = "Pods-CrispChatExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCFD59354F1C977A025FBDD84DB01D9 /* Crisp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Crisp-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73EADE63A9B6290C4D8268D4E740284E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E5050C9D781513166497F2BB22E7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88910D7ED0E7E7F94AE577DF496BE309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49228DA56C2D9AF5421AA17F14737DB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8D9C005461C040974993225E932041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C93BA85370258356492DE085CEE823 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6039A648594FD12094DB985990ED0C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A429A0786214DD43AF97A7C6BC47B91 /* Crisp.framework */,
+				EAB7E9F726F6B23BBE4C3CDB0418B275 /* Pods_CrispChatExample.framework */,
+				BB4FF441C3D3A9F6766E10A37FEC71D5 /* Pods_CrispChatExampleTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1720CC69AFFFC52B240099FE09DA19F /* Pods-CrispChatExample */ = {
+			isa = PBXGroup;
+			children = (
+				930D6CB5BCCCFCE9B66C28F4EF9F7547 /* Pods-CrispChatExample.modulemap */,
+				15825784FBEE6FB82B682977C2E302D4 /* Pods-CrispChatExample-acknowledgements.markdown */,
+				393201459A7EBB29EE96892F4D74941A /* Pods-CrispChatExample-acknowledgements.plist */,
+				D70D42F6CA26E2B773FB85C80F11237F /* Pods-CrispChatExample-dummy.m */,
+				B786F46F65084B8FD5BC5DD8F258234E /* Pods-CrispChatExample-frameworks.sh */,
+				9F509ADFCF6E0C898F39C6D8FCABD401 /* Pods-CrispChatExample-Info.plist */,
+				8CD17083CE17438335769E2C6EE5EA69 /* Pods-CrispChatExample-umbrella.h */,
+				7CEA17836420F249587C157ACFA89053 /* Pods-CrispChatExample.debug.xcconfig */,
+				8178D79D2AB6A65144DDA6EAAEEA7F79 /* Pods-CrispChatExample.release.xcconfig */,
+			);
+			name = "Pods-CrispChatExample";
+			path = "Target Support Files/Pods-CrispChatExample";
+			sourceTree = "<group>";
+		};
+		BCA1363DE90FB3CE29D76ECE5D679129 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1720CC69AFFFC52B240099FE09DA19F /* Pods-CrispChatExample */,
+				D4AA714919CD05FBE6CC5219C39C24D3 /* Pods-CrispChatExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F3C77BCBB27B48A6982FA1ED0F24E355 /* Pods */,
+				6039A648594FD12094DB985990ED0C24 /* Products */,
+				BCA1363DE90FB3CE29D76ECE5D679129 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4AA714919CD05FBE6CC5219C39C24D3 /* Pods-CrispChatExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7656A8373585CD87400A2F47429E25D4 /* Pods-CrispChatExampleTests.modulemap */,
+				793B95F87F98A7AB638F410C43DA0630 /* Pods-CrispChatExampleTests-acknowledgements.markdown */,
+				74093B9AC7450056963D50C7872CD329 /* Pods-CrispChatExampleTests-acknowledgements.plist */,
+				CED2CA452C71B508398F80FA899AE90F /* Pods-CrispChatExampleTests-dummy.m */,
+				3CF28666BDF404093A24596D5B028B95 /* Pods-CrispChatExampleTests-Info.plist */,
+				2F746E329EE83312AF468E534BC4319C /* Pods-CrispChatExampleTests-umbrella.h */,
+				10D7A4200BF6DFF285C43F49187F6C56 /* Pods-CrispChatExampleTests.debug.xcconfig */,
+				81F3AAD6BA8227F8181E34129AA3C843 /* Pods-CrispChatExampleTests.release.xcconfig */,
+			);
+			name = "Pods-CrispChatExampleTests";
+			path = "Target Support Files/Pods-CrispChatExampleTests";
+			sourceTree = "<group>";
+		};
+		F3C77BCBB27B48A6982FA1ED0F24E355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBCD1521D555FBC16239ED869CF2EA17 /* Crisp */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBCD1521D555FBC16239ED869CF2EA17 /* Crisp */ = {
+			isa = PBXGroup;
+			children = (
+				6C3A00FBB05D2938A09890B73E01AD4B /* CrispView.swift */,
+				97A0F7BC56DF72C8B3A17329886BF8E1 /* Main.swift */,
+				FBDDF77C5530F0A89857D904283988F7 /* Support Files */,
+			);
+			name = Crisp;
+			path = Crisp;
+			sourceTree = "<group>";
+		};
+		FBDDF77C5530F0A89857D904283988F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09E2E060803B9EE463399CB5B128E990 /* Crisp.modulemap */,
+				C4D525671130DF7E611870E6198C3538 /* Crisp.xcconfig */,
+				EFCFD59354F1C977A025FBDD84DB01D9 /* Crisp-dummy.m */,
+				BFBDA781A3C27A77D390824A9018A115 /* Crisp-Info.plist */,
+				70125874A6D2B136EE7379A00E7F48E3 /* Crisp-prefix.pch */,
+				B2E40D5BE7D4FB7061A4E9FE390F12CD /* Crisp-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Crisp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12114541E06B74D659AB2471DB982902 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE98916CAB9A370339D4E8CF2B36DF /* Pods-CrispChatExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85362B76E828E929F65A5180EA0BB73F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C070AD9FD2E01A86E8FE0BF53FCEAE0A /* Crisp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C43D3497589CF43418F376E44FD647 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9222576B8E245B2522EEC193BCB310DB /* Pods-CrispChatExampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F04115FDA4A9B54FC0D6529569DC618 /* Pods-CrispChatExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE2143DD5649C88718DE22041D576E8 /* Build configuration list for PBXNativeTarget "Pods-CrispChatExampleTests" */;
+			buildPhases = (
+				93C43D3497589CF43418F376E44FD647 /* Headers */,
+				B6A586AA0F5A211EF47D29A27693FCF9 /* Sources */,
+				88910D7ED0E7E7F94AE577DF496BE309 /* Frameworks */,
+				428B396D034DBCB60DA44585CD5C2899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE5741501E7E0026131E5454DE3A300 /* PBXTargetDependency */,
+			);
+			name = "Pods-CrispChatExampleTests";
+			productName = "Pods-CrispChatExampleTests";
+			productReference = BB4FF441C3D3A9F6766E10A37FEC71D5 /* Pods_CrispChatExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C1701C69C43BF0BB4184B3A448C87EF /* Pods-CrispChatExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BE0A5D8386B6368285DBA8DF7A782C /* Build configuration list for PBXNativeTarget "Pods-CrispChatExample" */;
+			buildPhases = (
+				12114541E06B74D659AB2471DB982902 /* Headers */,
+				1C74A5C22FB7EF4415E9B42FB27F0FDC /* Sources */,
+				73EADE63A9B6290C4D8268D4E740284E /* Frameworks */,
+				4EF63ACD196DD3C0E28AB6BD3772D8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB7A2939BFE4C49FA6C7820BF7A03F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CrispChatExample";
+			productName = "Pods-CrispChatExample";
+			productReference = EAB7E9F726F6B23BBE4C3CDB0418B275 /* Pods_CrispChatExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		755731B16606591E3420CBE727BD36C2 /* Crisp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0677664043DFBFB12D680927D2A0FE /* Build configuration list for PBXNativeTarget "Crisp" */;
+			buildPhases = (
+				85362B76E828E929F65A5180EA0BB73F /* Headers */,
+				D395F621E06D2A860E3EE078A3D63068 /* Sources */,
+				EC8D9C005461C040974993225E932041 /* Frameworks */,
+				0B9B3CA055802AFA74ABE3E0402A11D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crisp;
+			productName = Crisp;
+			productReference = 8A429A0786214DD43AF97A7C6BC47B91 /* Crisp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6039A648594FD12094DB985990ED0C24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755731B16606591E3420CBE727BD36C2 /* Crisp */,
+				6C1701C69C43BF0BB4184B3A448C87EF /* Pods-CrispChatExample */,
+				0F04115FDA4A9B54FC0D6529569DC618 /* Pods-CrispChatExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B9B3CA055802AFA74ABE3E0402A11D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428B396D034DBCB60DA44585CD5C2899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF63ACD196DD3C0E28AB6BD3772D8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C74A5C22FB7EF4415E9B42FB27F0FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95929F58787310DF02E55E25FA2DFBE /* Pods-CrispChatExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A586AA0F5A211EF47D29A27693FCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F825021619F863FD0171F2365EB4DE2 /* Pods-CrispChatExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D395F621E06D2A860E3EE078A3D63068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD19CE267C162B1273858DED8E37365B /* Crisp-dummy.m in Sources */,
+				532F72072BABFF013597C052B3FB85D2 /* CrispView.swift in Sources */,
+				82C34C9EEE68250C5CDFC37E19180206 /* Main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB7A2939BFE4C49FA6C7820BF7A03F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Crisp;
+			target = 755731B16606591E3420CBE727BD36C2 /* Crisp */;
+			targetProxy = 505C4F793132B805DC15E948A70D45DA /* PBXContainerItemProxy */;
+		};
+		9EE5741501E7E0026131E5454DE3A300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CrispChatExample";
+			target = 6C1701C69C43BF0BB4184B3A448C87EF /* Pods-CrispChatExample */;
+			targetProxy = 345E45A8201B781B002D9AD885583E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09BB056D54F9675D762852312DB74C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8178D79D2AB6A65144DDA6EAAEEA7F79 /* Pods-CrispChatExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1003CF6983126BCAAD7715F9B31580A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F3AAD6BA8227F8181E34129AA3C843 /* Pods-CrispChatExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrispChatExampleTests/Pods-CrispChatExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrispChatExampleTests/Pods-CrispChatExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4A0D09368927AAACA063B89BA692F7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D7A4200BF6DFF285C43F49187F6C56 /* Pods-CrispChatExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrispChatExampleTests/Pods-CrispChatExampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrispChatExampleTests/Pods-CrispChatExampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F6F9432E925F2CD9B87644D265826A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEA17836420F249587C157ACFA89053 /* Pods-CrispChatExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrispChatExample/Pods-CrispChatExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FA5255CDADB9935293BFD178F5E70FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D525671130DF7E611870E6198C3538 /* Crisp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Crisp/Crisp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Crisp/Crisp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Crisp/Crisp.modulemap";
+				PRODUCT_MODULE_NAME = Crisp;
+				PRODUCT_NAME = Crisp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCE8D9E25823F5D6D0BD0232DE7C9111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D525671130DF7E611870E6198C3538 /* Crisp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Crisp/Crisp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Crisp/Crisp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Crisp/Crisp.modulemap";
+				PRODUCT_MODULE_NAME = Crisp;
+				PRODUCT_NAME = Crisp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BE0A5D8386B6368285DBA8DF7A782C /* Build configuration list for PBXNativeTarget "Pods-CrispChatExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6F9432E925F2CD9B87644D265826A1 /* Debug */,
+				09BB056D54F9675D762852312DB74C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0677664043DFBFB12D680927D2A0FE /* Build configuration list for PBXNativeTarget "Crisp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE8D9E25823F5D6D0BD0232DE7C9111 /* Debug */,
+				9FA5255CDADB9935293BFD178F5E70FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE2143DD5649C88718DE22041D576E8 /* Build configuration list for PBXNativeTarget "Pods-CrispChatExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0D09368927AAACA063B89BA692F7AB /* Debug */,
+				1003CF6983126BCAAD7715F9B31580A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

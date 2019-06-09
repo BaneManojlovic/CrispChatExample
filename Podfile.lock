@@ -1,0 +1,16 @@
+PODS:
+  - Crisp (0.1.27)
+
+DEPENDENCIES:
+  - Crisp
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Crisp
+
+SPEC CHECKSUMS:
+  Crisp: c3f25fb77df88229be8497a90f4aa8c365a205ed
+
+PODFILE CHECKSUM: 9d0d3290f99ee686143d34c44ede64094745c9df
+
+COCOAPODS: 1.7.1
